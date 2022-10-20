@@ -1,0 +1,18 @@
+//Array o lista
+
+/*Datos: Nombre
+edad
+soy un desarrollador?
+fehca de nacimiento
+objeto sobre mi libro favorito
+*/
+const librofav = {
+    titulo: "Las 48 leyes del poder",
+    autor: "Robert Greene",
+    "Fecha-publicacion": 1998,
+    url: "https://www.amazon.com/Las-48-leyes-del-poder/dp/8467039051" 
+}
+
+const newarray = ["Roberto", 18, true, 2003-10-16, librofav]
+
+console.log(newarray);
