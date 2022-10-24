@@ -1,0 +1,16 @@
+//Modulo 5 - numeros - Tarea
+
+// Paso 1 - altura en centimetros(numero entero)
+let altura_cm = 183;
+
+// Paso 2 - altura en metros(numero decimal)
+let altura_m = 1.83;
+
+// Paso 3 - peso en kilogramos(decimal)
+let peso_kg = 62.2;
+
+// Paso 4 - altura en metros redondeada
+console.log(altura_m.toFixed()); //nos devuelve un 2(metros)
+
+// Paso 5 - peso en kilogramos redondeado
+console.log(peso_kg.toFixed()); //Nos devuelve un 62(kilogramos)
