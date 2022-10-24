@@ -1,0 +1,35 @@
+//Strings modulo 4
+
+//Paso 1 - string de nombre
+let name = `Roberto`;
+
+//paso 2 - string de apellido
+let last_name = `Capellan`;
+
+//Paso 3 - string de concatenacion de nombre y apellido
+let student = `  Hola, soy el estudiante ${name} ${last_name}  `;
+console.log(student)
+
+//Paso 4 - String que pone todo el texto en mayusculas
+console.log(student.toUpperCase());
+
+//Paso 5 - String que pone todo el texto en minusculas
+console.log(student.toLowerCase());
+
+//Paso 6 - Longitud de letras del string contando los espacios
+console.log(student.length);
+//Nos devuelve 44 espacios de longitud
+
+//Paso 7 - string de primera letra del nombre
+console.log(student.charAt(30));
+
+//Paso 8 - string de ultima letra del apellido
+console.log(student.charAt(41));
+
+//Paso 9 - String que elimina todos los espacios en la variable
+console.log(student.trim().length);
+//Nos devuelve 40 espacios de longitud
+
+//Paso 10 - Booleano que responde si el contenido de la variable es "estudiante"
+console.log(student.includes(`estudiante`));
+//Nos devuelve un verdadero
